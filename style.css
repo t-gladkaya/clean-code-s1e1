@@ -85,7 +85,7 @@ h2,
   color: #888;
 }
 .task-form__input:focus {
-    color: #333;
+  color: #333;
 }
 
 /* New Task */
