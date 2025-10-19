@@ -103,10 +103,10 @@ var editTask=function(){
   }else{
   editInput.value=label.innerText;
   editBtn.innerText="Save";
-}
+  }
 
-//toggle .edit-mode on the parent.
-listItem.classList.toggle("task-item--editing");
+  //toggle .edit-mode on the parent.
+  listItem.classList.toggle("task-item--editing");
 };
 
 
