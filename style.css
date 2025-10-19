@@ -42,10 +42,6 @@ body {
 .task-item {
   list-style: none;
 }
-input,
-button{
-  outline: none;
-}
 .task-form__btn,
 .task-item__edit-btn,
 .task-item__delete-btn {
@@ -56,12 +52,13 @@ button{
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
+  outline: none;
 }
 .task-form__btn:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h2,
+.section-title,
 .task-form__label {
   color: #333;
   font-weight: 700;
@@ -83,6 +80,7 @@ h2,
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
+  outline: none;
 }
 .task-form__input:focus {
   color: #333;
